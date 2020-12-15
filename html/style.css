@@ -1,0 +1,244 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+body{
+	background-color: rgba(243, 242, 247, 1);
+}
+#time{
+	position: fixed;
+	top: 100px;
+	right: -0px;
+	width: 100px;
+	height: 50px;
+	border-radius:20px;
+	line-height: 25px;
+	color: white;
+	background-color: rgba(198, 88, 87, 0.8);
+	text-align: center;
+}
+#head{
+	width: 1000px;
+	margin: 0 auto;
+}
+.header{
+	height: 100px;
+	width: 1000px;
+	margin: 0;
+	text-align: center;
+}
+.logo{
+	float: left;
+	height: 41px;
+	width: 101px;
+	margin-top: 30px;
+}
+.list{
+	float: left;
+	height: 100px;
+	width: 650px;
+	line-height: 100px;
+}
+li{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	font-size: 15px;
+}
+.search{
+	width: 200px;
+	height: 100px;
+	margin-top: 40px;
+	float: right;
+	position: relative;
+}
+.search1{
+	float: left;
+	height:28px;
+	width: 150px;
+	border: 1px solid rgba(198, 88, 87, 0.7);
+	font-size: 10px;
+}
+.submit{
+	float: left;
+	width: 30px;
+	height: 30px;
+	border-right: 1px solid rgba(198, 88, 87, 0.7);
+	border-top: 1px solid rgba(198, 88, 87, 0.7);
+	border-bottom: 1px solid rgba(198, 88, 87, 0.7);
+	background: url('../image/sou.jpg') no-repeat center;
+}
+li:hover a{
+	color: rgba(240, 114, 30, 1);
+	text-decoration: none;
+}
+li:hover a{
+	border-bottom: 1px solid rgba(240, 114, 30, 1);
+}
+#grass{
+	display: none;
+}
+#black{
+	display: none;
+}
+#red{
+	display: none;
+}
+#yellow{
+	display: none;
+}
+#theme:hover #grass{
+	display: block;
+	position: absolute;
+	top: 100px;
+	width: 100px;
+	height: 30px;
+	color: black;
+	line-height: 30px;
+	background-color: rgba(243, 242, 247, 0.5);
+}
+#theme:hover #black{
+	display: block;
+	position: absolute;
+	top: 130px;
+	width: 100px;
+	height: 30px;
+	color: black;
+	line-height: 30px;
+	background-color: rgba(243, 242, 247, 0.5);
+}
+#theme:hover #red{
+	display: block;
+	position: absolute;
+	top:160px;
+	width: 100px;
+	height: 30px;
+	color: black;
+	line-height: 30px;
+	background-color: rgba(243, 242, 247, 0.5);
+}
+#theme:hover #yellow{
+	display: block;
+	position: absolute;
+	top: 190px;
+	width: 100px;
+	height: 30px;
+	color: black;
+	line-height: 30px;
+	background-color: rgba(243, 242, 247, 0.5);
+}
+.login{
+	height: 227px;
+	width: 1000px;
+	background: url('../image/shu1.jpg') no-repeat center;
+}
+.login-1{
+	height: 80px;
+	width: 300px;
+	margin: 0 auto;
+	padding-top: 80px;
+	padding-left: 500px;
+	color: white;
+}
+.click{
+	width: 150px;
+	height: 30px;
+	padding-top: 5px;
+	margin: 0 auto;
+}
+.click-1{
+	float: left;
+	width: 50px;
+	height: 30px;
+	margin: 0 auto;
+}
+.box{
+	height: 450px;
+	width: 1000px;
+	margin-top: 10px;
+	position: relative;
+	overflow: hidden;
+	background: rgba(129, 113, 88, 1) url('../image/tushu1.jpg') no-repeat center;
+}
+.slide{
+	width: 1000px;
+	overflow: hidden;
+	float: left;
+}
+.banner{
+	width: 6000px;
+	position: absolute;
+	left: -1000px;
+}
+.tuijian1{
+	height: 20px;
+	width: 100px;
+	margin-top: 20px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.8);
+	font-weight: bold;
+	background-color: rgba(240, 114, 30, 0.7);
+}
+.tuijian{
+	height: 200px;
+	width: 1000px;
+	margin-top: 10px;
+}
+.tuijian-1{
+	float: left;
+	height: 200px;
+	width: 200px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.price{
+	height: 90px;
+	width: 200px;
+	float: left;
+	position: relative;
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.9);
+	background-color: rgba(0, 0, 0, 0.4);
+	top: -95px;
+	opacity: 0;
+}
+.tuijian-1:hover .price{
+	height: 90px;
+	width: 200px;
+	float: left;
+	position: relative;
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.9);
+	background-color: rgba(0, 0, 0, 0.4);
+	top: -95px;
+	opacity: 1;
+}
+.price-1{
+	font-size: 20px;
+}
+.banquan{
+	height: 80px;
+	width: 1000px;
+	margin-top: 20px;
+	font-size: 15px;
+	line-height: 80px;
+	text-align: center;
+	color: white;
+	background-color: rgba(198, 88, 87, 0.7);
+}
+#table{
+	width: 1000px;
+}
+#table1{
+	color: rgba(240, 114, 30, 0.7);
+}
+.newshop{
+	color: black;
+}
